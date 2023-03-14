@@ -1,9 +1,14 @@
-import './App.css';
+import { NavBar } from './components/NavBar.js';
+import { Banner } from './components/Banner';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
-      <h1>Olá word</h1>
+    <div className="App">
+      <>
+        <NavBar />
+        <Banner />
+      </>
     </div>
   );
 }
